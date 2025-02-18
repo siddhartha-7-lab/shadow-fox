@@ -1,5 +1,10 @@
+#task 1_variables
 pi = 22 / 7
 print("Data type of pi:", type(pi))
+# Trying to create a variable named 'for' (which is a reserved keyword in Python)
+# This will cause a SyntaxError if uncommented
+# for = 4  # SyntaxError: invalid syntax
+print("'for' cannot be used as a variable name because it is a reserved keyword in Python.")
 P = 10000  # Principal amount
 R = 5      # Rate of interest (in % per annum)
 T = 3      # period in years
