@@ -2,7 +2,7 @@ pi = 22 / 7
 print("Data type of pi:", type(pi))
 P = 10000  # Principal amount
 R = 5      # Rate of interest (in % per annum)
-T = 3      # Time period in years
-Simple_Interest = (P * R * T) / 10
+T = 3      # period in years
+Simple_Interest = (P * R * T) / 100
 # Simple Interest
 print("Simple Interest:", Simple_Interest)
